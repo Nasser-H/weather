@@ -1,0 +1,36 @@
+@media screen and (min-width: 768px) {
+  .container {
+    width: 750px;
+  }
+}
+@media screen and (min-width: 992px) {
+  .container {
+    width: 970px;
+  }
+}
+@media screen and (min-width: 992px) {
+  section.forecast-table {
+    min-height: 540px;
+  }
+  section.forecast-table .container .card {
+    height: 562px;
+  }
+  footer .caption {
+    flex-wrap: nowrap;
+  }
+  footer .caption ul {
+    margin-inline: 50px;
+    padding-left: 32px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .container {
+    width: 1170px;
+  }
+  section.forecast-table {
+    min-height: 453px;
+  }
+  section.forecast-table .container .card {
+    height: 453px;
+  }
+}

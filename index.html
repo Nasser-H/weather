@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather</title>
+    <!-- bootsrab css-file -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- fontawesome css-file -->
+    <link rel="stylesheet" href="css/fontawesome.min.css">
+    <!-- css files -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+
+</head>
+
+<body>
+    <main>
+        <nav class="navbar navbar-expand-lg ">
+            <div class="container">
+                <a class="navbar-brand d-flex column-gap-3 m-0 p-0" href="#">
+                    <img class="log-img" src="images/images1.png" alt="logo-img">
+                    <figure class="m-0 d-flex flex-column justify-content-evenly">
+                        <h1 class="h6 m-0 text-white">Weather</h1>
+                        <small class="des-logo">tagline goes here</small>
+                    </figure>
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-mobile d-lg-none w-100" id="navbarSupportedContent">
+                    <!-- <ul class="navbar-nav ms-auto mb-2 mb-lg-0 column-gap-3">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">News1</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Live cameras</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Photos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contact</a>
+                        </li>
+                    </ul> -->
+
+                    <ul class="navbar-nav-mobile list-group list-group-flush pt-4 text-center">
+                        <li class="list-group-item nav-mobile-item"><a class="nav-link active" href="#">Home</a>
+                        </li>
+                        <li class="list-group-item nav-mobile-item"><a class="nav-link" href="#">News</a></li>
+                        <li class="list-group-item nav-mobile-item"><a class="nav-link" href="#">Live cameras</a></li>
+                        <li class="list-group-item nav-mobile-item"><a class="nav-link" href="#">Contact</a></li>
+                    </ul>
+
+
+                </div>
+                <div class="collapse navbar-collapse">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0 column-gap-3">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">News</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Live cameras</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Photos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contact</a>
+                        </li>
+
+                    </ul>
+
+                </div>
+            </div>
+        </nav>
+        <section class="find-location d-flex justify-content-center align-items-center">
+            <div class="container">
+                <div class="input-group mb-3">
+                    <input type="text" class="form-control rounded-5 py-3" placeholder="Find your location..."
+                        aria-label="Recipient's username" aria-describedby="button-search">
+                    <button class="btn btn-primary rounded-5 position-absolute " type="button"
+                        id="button-search">Find</button>
+                </div>
+            </div>
+        </section>
+        <section class="forecast-table position-relative">
+            <div class="container">
+                <div class="row gy-4 mb-5">
+                    <div class="col-lg-4 p-md-0">
+                        <div class="inner1">
+                            <div class="card rounded-end-0">
+                                <div class="card-header d-flex justify-content-between border-0">
+                                    <p class="m-0">Tuesday</p>
+                                    <p class="m-0">3December</p>
+                                </div>
+                                <div class="card-body">
+                                    <h5 class="card-title">Cairo International Airport</h5>
+                                    <h5 class="card-text">16.1<sub>o</sub>C</h5>
+                                    <img src="images/images3.png" alt="">
+                                    <span class="d-inline-block ">Clear</span>
+                                    <ul>
+                                        <li><i class="fa-solid fa-umbrella"></i> <span>20%</span></li>
+                                        <li><i class="fa-solid fa-wind"></i> <span>18km/h</span></li>
+                                        <li><i class="fa-regular fa-compass"></i> <span>East</span></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 p-md-0">
+                        <div class="inner2">
+                            <div class="card ">
+                                <div class="card-header d-flex justify-content-center">
+                                    <p class="m-0">Tuesday</p>
+                                </div>
+                                <div class="card-body">
+                                    <img src="images/images3.png" alt="">
+                                    <h5 class="card-text">16<sub>o</sub>C</h5>
+                                    <h5 class="card-text-small">16.1<sub>o</sub>C</h5>
+                                    <span class="d-inline-block ">Sunny</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 p-md-0">
+                        <div class="inner3">
+                            <div class="card">
+                                <div class="card-header d-flex justify-content-center">
+                                    <p class="m-0">Tuesday</p>
+                                </div>
+                                <div class="card-body">
+                                    <img src="images/images3.png" alt="">
+                                    <h5 class="card-text">16<sub>o</sub>C</h5>
+                                    <h5 class="card-text-small">16.1<sub>o</sub>C</h5>
+                                    <span class="d-inline-block ">Sunny</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer>
+            <div class="container">
+                <div class="caption">
+                    <div class="input-group mb-3">
+                        <input type="text" class="form-control rounded-5 py-3"
+                            placeholder="Enter your email to subscribe..." aria-describedby="button-search">
+                        <button class="btn btn-primary rounded-5 position-absolute " type="button">Subscribe</button>
+                    </div>
+                    <ul>
+                        <a target="_blank" href="https://www.facebook.com/profile.php?id=100004291441295">
+                            <li><i class="fa-brands fa-facebook-f"></i></li>
+                        </a>
+                        <a href="#">
+                            <li><i class="fa-brands fa-twitter"></i></li>
+                        </a>
+                        <a href="#">
+                            <li><i class="fa-brands fa-google-plus-g"></i></li>
+                        </a>
+                        <a href="#">
+                            <li><i class="fa-brands fa-pinterest"></i></li>
+                        </a>
+                    </ul>
+                </div>
+                <p>Copyright 2024 . Designed by Nasser Hussein. All rights reserved</p>
+            </div>
+        </footer>
+    </main>
+    <!-- bootstrab js-file -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <!-- js files -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>
