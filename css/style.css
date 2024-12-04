@@ -16,8 +16,8 @@ body {
 .container {
   margin-inline: 0;
   -webkit-box-pack: justify !important;
-      -ms-flex-pack: justify !important;
-          justify-content: space-between !important;
+  -ms-flex-pack: justify !important;
+  justify-content: space-between !important;
   max-width: 100% !important;
   margin-inline: auto !important;
 }
@@ -93,7 +93,7 @@ nav .navbar-toggler:hover {
 }
 .navbar-toggler:focus {
   -webkit-box-shadow: none;
-          box-shadow: none;
+  box-shadow: none;
 }
 /* section find-location */
 section.find-location {
@@ -120,7 +120,7 @@ section.find-location #button-search {
   border-color: transparent;
   background-color: #1e202b;
   -webkit-box-shadow: none;
-          box-shadow: none;
+  box-shadow: none;
 }
 .form-control::-webkit-input-placeholder {
   color: #757575;
@@ -147,8 +147,8 @@ section.forecast-table .container {
   top: -10%;
   position: absolute;
   -webkit-transform: translatex(-50%);
-      -ms-transform: translatex(-50%);
-          transform: translatex(-50%);
+  -ms-transform: translatex(-50%);
+  transform: translatex(-50%);
 }
 section.forecast-table .container .card {
   background-color: transparent;
@@ -164,7 +164,7 @@ section.forecast-table .container .inner1 .card .card-body .card-title {
 }
 section.forecast-table .container .inner1 .card .card-body .card-text {
   color: white;
-  font-size: 5.625rem;
+  font-size: 4rem;
   font-weight: 700;
   margin-right: 30px;
   margin-bottom: 0;
@@ -197,8 +197,8 @@ section.forecast-table .container .inner1 .card-body ul {
   display: -ms-flexbox;
   display: flex;
   -webkit-column-gap: 30px;
-     -moz-column-gap: 30px;
-          column-gap: 30px;
+  -moz-column-gap: 30px;
+  column-gap: 30px;
   padding: 0;
   margin: 0;
 }
@@ -218,11 +218,11 @@ section.forecast-table .container .inner2 .card-body {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   background-color: #262936;
   border-radius: 0;
 }
@@ -266,11 +266,11 @@ section.forecast-table .container .inner3 .card-body {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   background-color: #323544;
   border-bottom-right-radius: 5px;
 }
@@ -312,7 +312,7 @@ footer .caption {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  flex-wrap: wrap;
 }
 
 footer .caption button {
@@ -333,8 +333,8 @@ footer .caption ul {
   margin-inline: 0;
   padding-left: 0;
   -webkit-column-gap: 15px;
-     -moz-column-gap: 15px;
-          column-gap: 15px;
+  -moz-column-gap: 15px;
+  column-gap: 15px;
 }
 footer .caption ul a {
   text-decoration: none;
@@ -348,11 +348,11 @@ footer .caption ul a {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -webkit-transition: all 0.3s;
   -o-transition: all 0.3s;
   transition: all 0.3s;
