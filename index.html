@@ -86,8 +86,8 @@
         <section class="find-location d-flex justify-content-center align-items-center">
             <div class="container">
                 <div class="input-group mb-3">
-                    <input type="text" class="form-control rounded-5 py-3" placeholder="Find your location..."
-                        aria-label="Recipient's username" aria-describedby="button-search">
+                    <input id="searchLocation" type="text" class="form-control rounded-5 py-3"
+                        placeholder="Find your location...">
                     <button class="btn btn-primary rounded-5 position-absolute " type="button"
                         id="button-search">Find</button>
                 </div>
@@ -100,14 +100,14 @@
                         <div class="inner1">
                             <div class="card rounded-end-0">
                                 <div class="card-header d-flex justify-content-between border-0">
-                                    <p class="m-0">Tuesday</p>
-                                    <p class="m-0">3December</p>
+                                    <p id="currentDayName" class="m-0"></p>
+                                    <p id="currentDay" class="m-0"></p>
                                 </div>
                                 <div class="card-body">
-                                    <h5 class="card-title">Cairo International Airport</h5>
-                                    <h5 class="card-text">16.1<sub>o</sub>C</h5>
-                                    <img src="images/images3.png" alt="">
-                                    <span class="d-inline-block ">Clear</span>
+                                    <h5 id="weatherLocation" class="card-title"></h5>
+                                    <h5 class="card-text"><span id="currentWeatherDgree"></span><sub>o</sub>C</h5>
+                                    <img id="currentWeatherImage" src="" alt="current Weather Image">
+                                    <span id="currentWeatherText" class="d-inline-block "></span>
                                     <ul>
                                         <li><i class="fa-solid fa-umbrella"></i> <span>20%</span></li>
                                         <li><i class="fa-solid fa-wind"></i> <span>18km/h</span></li>
@@ -121,13 +121,14 @@
                         <div class="inner2">
                             <div class="card ">
                                 <div class="card-header d-flex justify-content-center">
-                                    <p class="m-0">Tuesday</p>
+                                    <p id="tomorrowDayName" class="m-0"></p>
                                 </div>
                                 <div class="card-body">
-                                    <img src="images/images3.png" alt="">
-                                    <h5 class="card-text">16<sub>o</sub>C</h5>
-                                    <h5 class="card-text-small">16.1<sub>o</sub>C</h5>
-                                    <span class="d-inline-block ">Sunny</span>
+                                    <img id="tomorrowWeatherIcon" src="" alt="tomorrow Weather Icon">
+                                    <h5 class="card-text"><span id="tomorrowWeatherMaxDgree"></span><sub>o</sub>C</h5>
+                                    <h5 class="card-text-small"><span id="tomorrowWeatherMinDgree"></span><sub>o</sub>C
+                                    </h5>
+                                    <span id="tomorrowWeatherText" class="d-inline-block"></span>
                                 </div>
                             </div>
                         </div>
@@ -136,13 +137,16 @@
                         <div class="inner3">
                             <div class="card">
                                 <div class="card-header d-flex justify-content-center">
-                                    <p class="m-0">Tuesday</p>
+                                    <p id="AfterTomorrowDayName" class="m-0"></p>
                                 </div>
                                 <div class="card-body">
-                                    <img src="images/images3.png" alt="">
-                                    <h5 class="card-text">16<sub>o</sub>C</h5>
-                                    <h5 class="card-text-small">16.1<sub>o</sub>C</h5>
-                                    <span class="d-inline-block ">Sunny</span>
+                                    <img id="AfterTomorrowWeatherIcon" src="" alt="After Tomorrow Weather Icon">
+                                    <h5 class="card-text"><span id="AfterTomorrowWeatherMaxDgree"></span><sub>o</sub>C
+                                    </h5>
+                                    <h5 class="card-text-small"><span
+                                            id="AfterTomorrowWeatherMinDgree"></span><sub>o</sub>C
+                                    </h5>
+                                    <span id="AfterTomorrowWeatherText" class="d-inline-block"></span>
                                 </div>
                             </div>
                         </div>

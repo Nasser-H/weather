@@ -114,6 +114,7 @@ section.find-location #button-search {
   padding-inline: 20px;
   border-color: transparent;
   background-color: #1e202b;
+  color: white;
 }
 .form-control:focus {
   color: white;
